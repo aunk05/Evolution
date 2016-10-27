@@ -4,9 +4,9 @@ import java.util.Random;
 
 public class Refiner {
 
-	int generations, numberOfChildren;
-	String initialString, targetString;
-	String[] Kindergarten;
+	private int generations, numberOfChildren;
+	private String initialString, targetString;
+	private String[] Kindergarten;
 
 	public Refiner(String targetString, String initialString,
 			int numberOfChildren, int generations) {
